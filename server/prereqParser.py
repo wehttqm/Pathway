@@ -11,12 +11,13 @@ class State:
 class FSM:
     context_token = ""
     joiner = ""
-    prereqs = { "and": [], "or": [] }
+    
 
     def __init__(self):
         self.q0 = Q0(self)
         self.q2 = Q2(self)
         self.current_state = self.q0
+        self.prereqs = { "and": [], "or": [] }
 
     def transition_to(self, new_state):
         self.current_state = new_state
@@ -28,16 +29,12 @@ class FSM:
 def handle_append(fsm, joiner):
     if joiner == "and":
         fsm.joiner = "and"
-        if isinstance(fsm.context_token, str):
-            print(f"modifying {id(fsm)}")
-            fsm.prereqs["and"].append(fsm.context_token)
+        fsm.prereqs["and"].append(fsm.context_token)
         # later worry about the case when context_token is a dict
         fsm.transition_to(fsm.q0)
     elif joiner == "or":
         fsm.joiner = "or"
-        if isinstance(fsm.context_token, str):
-            print(f"modifying {id(fsm)}")
-            fsm.prereqs["or"].append(fsm.context_token)
+        fsm.prereqs["or"].append(fsm.context_token)
         # later worry about the case when context_token is a dict
         fsm.transition_to(fsm.q0)
     elif joiner == "]" or joiner == ")":
@@ -52,49 +49,46 @@ class Q0(State):
     def __init__(self, fsm):
         super().__init__(fsm)
 
-    def handle_input(self, input_data):
-        input_token = input_data.pop(0)
+    def handle_input(self, input_token):
         if input_token == "(" or input_token == "[":
             # recursion
-            self.fsm.context_token, input_data = hunt_for_prereqs(input_data)
-            
+            self.fsm.context_token = hunt_for_prereqs(tokens_basic)
         else:
             # Assume we have a valid course code for now. Later, check with regex
             self.fsm.context_token = input_token
         
         self.fsm.transition_to(self.fsm.q2)
-        return None, input_data
-        
-        
 
 
 class Q2(State):
     def __init__(self, fsm):
         super().__init__(fsm)
 
-    def handle_input(self, input_data):
-        joiner = input_data.pop(0)
-        return handle_append(self.fsm, joiner), input_data
+    def handle_input(self, input_token):
+        return handle_append(self.fsm, input_token)
 
 
+i = -1
 def hunt_for_prereqs(input_data: list[str]):
+    global i
     fsm = FSM()
-    while len(input_data) > 0:
-        print(fsm.prereqs)
-        res, input_data = fsm.handle_input(input_data)
+    while i < len(input_data) - 1:
+        i += 1
+        res = fsm.handle_input(input_data[i])
         if res is not None:
             break
         
     handle_append(fsm, fsm.joiner)
 
-    return fsm.prereqs, input_data
+    return fsm.prereqs
 
 
 if __name__ == "__main__":
-    tokens_basic = ['(', 'STA246H5', 'or', 'STA256H5', ')', 'and', 'CSC376H5']
+    global tokens_basic 
+    tokens_basic = ['(', 'STA246H5', 'and', 'STA256H5', ')', 'or', 'CSC376H5']
 
     prereqs = hunt_for_prereqs(tokens_basic)    
 
-    print(prereqs[0])
+    print(prereqs)
 
 
