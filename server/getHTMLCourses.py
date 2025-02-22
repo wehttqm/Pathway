@@ -1,6 +1,8 @@
 from bs4 import BeautifulSoup
 import requests
 import re
+from prereqParser import hunt_for_prereqs
+import traceback
 
 def get_courses(html: bytes):
     soup = BeautifulSoup(html, 'html.parser')
@@ -23,12 +25,14 @@ def get_courses(html: bytes):
             prerequisites = (child_div.find('span', class_='views-field-field-prerequisite').get_text(strip=False))[15:]
             prerequisites: str = re.split(r'(\s+|\(|\)|\[|\])', prerequisites)
             prerequisites = [i for i in prerequisites if (i != " " and i != '')]
+            prerequisites = hunt_for_prereqs(prerequisites)
+
+            print(f"Course: {course_name}, Prerequisites: {prerequisites}")
 
             d["name"] = course_name
             d["description"] = description
             d["prerequisites"] = prerequisites
             courses.append(d)
-            print(d["prerequisites"])
         except:
             pass
 
@@ -47,4 +51,4 @@ def getHTMLCourses(url: str):
     
 
 if __name__ == "__main__":
-    print(getHTMLCourses("https://utm.calendar.utoronto.ca/section/Computer-Science"))
+    courses = getHTMLCourses("https://utm.calendar.utoronto.ca/section/computer-science")

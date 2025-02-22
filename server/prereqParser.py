@@ -11,7 +11,6 @@ class State:
 class FSM:
     context_token = ""
     joiner = ""
-    
 
     def __init__(self):
         self.q0 = Q0(self)
@@ -49,46 +48,45 @@ class Q0(State):
     def __init__(self, fsm):
         super().__init__(fsm)
 
-    def handle_input(self, input_token):
+    def handle_input(self, input_data):
+        input_token = input_data.pop(0)
         if input_token == "(" or input_token == "[":
             # recursion
-            self.fsm.context_token = hunt_for_prereqs(tokens_basic)
+            self.fsm.context_token, input_data = hunt_for_prereqs(input_data)
         else:
             # Assume we have a valid course code for now. Later, check with regex
             self.fsm.context_token = input_token
         
         self.fsm.transition_to(self.fsm.q2)
+        return None, input_data
+        
+        
 
 
 class Q2(State):
     def __init__(self, fsm):
         super().__init__(fsm)
 
-    def handle_input(self, input_token):
-        return handle_append(self.fsm, input_token)
+    def handle_input(self, input_data):
+        joiner = input_data.pop(0)
+        return handle_append(self.fsm, joiner), input_data
 
 
-i = -1
 def hunt_for_prereqs(input_data: list[str]):
-    global i
     fsm = FSM()
-    while i < len(input_data) - 1:
-        i += 1
-        res = fsm.handle_input(input_data[i])
+    while len(input_data) > 0:
+        res, input_data = fsm.handle_input(input_data)
         if res is not None:
             break
         
     handle_append(fsm, fsm.joiner)
 
-    return fsm.prereqs
+    return fsm.prereqs, input_data
 
 
 if __name__ == "__main__":
-    global tokens_basic 
-    tokens_basic = ['(', 'STA246H5', 'and', 'STA256H5', ')', 'or', 'CSC376H5']
+    tokens_basic = ['(', 'STA246H5', 'or', 'STA256H5', ')', 'and', 'CSC376H5']
 
     prereqs = hunt_for_prereqs(tokens_basic)    
 
-    print(prereqs)
-
-
+    print(prereqs[0])
