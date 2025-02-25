@@ -5,7 +5,7 @@ import path from "path"
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/pathway/",
+  base: "https://wehttqm.xyz/pathway/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
