@@ -12,6 +12,7 @@ export default defineConfig({
     },
   },
   preview: {
+    allowedHosts: ["wehttqm.xyz"],
     port: 3000,
     strictPort: true,
    },
