@@ -1,1 +1,9 @@
-{}
+{
+  "bracketSpacing": true,
+  "singleQuote": false,
+  "trailingComma": "all",
+  "arrowParens": "avoid",
+  "tailwindFunctions": ["tva"],
+  "endOfLine": "lf",
+  "tabWidth": 2
+}
