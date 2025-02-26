@@ -57,4 +57,6 @@ def getHTMLCourses(url: str):
     
 
 if __name__ == "__main__":
-    courses = getHTMLCourses("https://utm.calendar.utoronto.ca/section/biology")
+    import json
+    with open("courses.json", "w") as fout:
+        json.dump(getHTMLCourses("https://utm.calendar.utoronto.ca/section/biology"), fout)

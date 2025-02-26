@@ -40,5 +40,7 @@ def get_program_areas(url: str = "https://utm.calendar.utoronto.ca/list-program-
     
 
 if __name__ == "__main__":
-    print(get_program_areas())
+    import json
+    with open("programAreas.json", "w") as fout:
+        json.dump(get_program_areas(), fout)
 
