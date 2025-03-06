@@ -109,7 +109,7 @@ function CommandGroup({
   className,
   ...props
 }: {
-  className: string;
+  className?: string;
   children: React.ReactNode;
   heading: string;
 }) {
