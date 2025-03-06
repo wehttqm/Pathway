@@ -6,6 +6,9 @@ import react from "eslint-plugin-react";
 
 export default tseslint.config(
   {
+    ignores: ["src/components/ui/"],
+  },
+  {
     ...react.configs.flat.recommended,
     settings: {
       react: {

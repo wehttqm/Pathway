@@ -4,6 +4,6 @@
   "trailingComma": "all",
   "arrowParens": "avoid",
   "tailwindFunctions": ["tva"],
-  "endOfLine": "lf",
+  "endOfLine": "crlf",
   "tabWidth": 2
 }

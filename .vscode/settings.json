@@ -11,7 +11,7 @@
   "editor.tabSize": 2,
 
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.endOfLine": "lf",
+  "prettier.endOfLine": "crlf",
   "files.eol": "\n",
 
   "tailwindCSS.includeLanguages": {
