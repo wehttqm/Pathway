@@ -1,3 +1,4 @@
+/// <reference types="vite-plugin-svgr/client" />
 import { LibraryBig } from "lucide-react";
 import { motion } from "motion/react";
 import PathwayLogo from "@/assets/pathway.svg?react";
