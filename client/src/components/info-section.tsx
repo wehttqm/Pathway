@@ -72,9 +72,7 @@ export const InfoSection = ({
         transition={{ duration: 0.5 }}
       >
         <div className="flex flex-col items-center">
-          <span className="text-4xl font-bold">
-            Discover Relative Courses
-          </span>
+          <span className="text-4xl font-bold">Discover Relative Courses</span>
           <span className="text-center text-2xl mt-2 w-3/5">
             Pathway uses AI to find courses that align with your interests,
             ensuring you discover the most relevant options for your academic
