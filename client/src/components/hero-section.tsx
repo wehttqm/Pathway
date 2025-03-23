@@ -4,20 +4,9 @@ import { motion } from "motion/react";
 import PathwayLogo from "@/assets/pathway.svg?react";
 import { SchoolSearch } from "@/components/school-search";
 import { ArrowDown } from "./arrow-down";
+import { fadeUpVariants } from "@/variants";
 
 export const HeroSection = () => {
-  const fadeUpVariants = {
-    hidden: { opacity: 0, y: 30 },
-    visible: (i: number) => ({
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 1,
-        delay: i * 0.2,
-        ease: [0.25, 0.4, 0.25, 1],
-      },
-    }),
-  };
   return (
     <div className="relative w-full h-full flex flex-col justify-center items-center">
       <motion.div

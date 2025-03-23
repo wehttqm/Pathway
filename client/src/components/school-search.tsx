@@ -8,8 +8,10 @@ import {
 } from "@/components/ui/command";
 import React from "react";
 import { Button } from "@/components/ui/button";
+import { useNavigate } from "react-router";
 
 export const SchoolSearch = () => {
+  const navigate = useNavigate();
   const [open, setOpen] = React.useState(false);
 
   React.useEffect(() => {
@@ -40,9 +42,15 @@ export const SchoolSearch = () => {
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
           <CommandGroup heading="Suggestions">
-            <CommandItem>University of Toronto Mississauga</CommandItem>
-            <CommandItem>University of Toronto St. George</CommandItem>
-            <CommandItem>University of Toronto Scarborough</CommandItem>
+            <CommandItem onSelect={() => navigate("/pathway/school/utm")}>
+              University of Toronto Mississauga
+            </CommandItem>
+            <CommandItem onSelect={() => navigate("/pathway/school/utsg")}>
+              University of Toronto St. George
+            </CommandItem>
+            <CommandItem onSelect={() => navigate("/pathway/school/utsc")}>
+              University of Toronto Scarborough
+            </CommandItem>
           </CommandGroup>
         </CommandList>
       </CommandDialog>
