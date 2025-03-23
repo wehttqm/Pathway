@@ -73,7 +73,7 @@ export const InfoSection = ({
       >
         <div className="flex flex-col items-center">
           <span className="text-4xl font-bold">
-            Discover Interesting Courses
+            Discover Relative Courses
           </span>
           <span className="text-center text-2xl mt-2 w-3/5">
             Pathway uses AI to find courses that align with your interests,
