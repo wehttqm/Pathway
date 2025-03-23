@@ -8,8 +8,6 @@ import {
   MiniMap,
   ReactFlow,
   ReactFlowProvider,
-  useEdgesState,
-  useNodesState,
   useReactFlow,
 } from "@xyflow/react";
 
@@ -20,6 +18,7 @@ const nodeTypes = {
 import "@xyflow/react/dist/base.css";
 import { useState } from "react";
 import { Button } from "./ui/button";
+import { useNodesContext } from "@/providers/useNodesProvider";
 
 export const CourseView = () => {
   return (
@@ -64,28 +63,8 @@ const Flow = () => {
     fitView({ padding: 0.5 });
   };
 
-  type NodeBase = {
-    id: string;
-    type: string;
-    position: {
-      x: number;
-      y: number;
-    };
-    data: { code: string };
-    origin: [number, number];
-  };
-
-  type EdgeBase = {
-    id: string;
-    source: string;
-    target: string;
-    type: string;
-    animated?: boolean;
-    style?: React.CSSProperties;
-  };
-
-  const [nodes, setNodes, onNodesChange] = useNodesState<NodeBase>([]);
-  const [edges, setEdges, onEdgesChange] = useEdgesState<EdgeBase>([]);
+  const { nodes, setNodes, onNodesChange, edges, setEdges, onEdgesChange } =
+    useNodesContext();
 
   document.body.classList.add("dark");
   const params = useParams();

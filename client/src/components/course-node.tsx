@@ -1,6 +1,6 @@
 import { memo } from "react";
 import { Handle, Position } from "@xyflow/react";
-import { CourseInfo } from "./course-info";
+import { useNodesContext } from "@/providers/useNodesProvider";
 
 type CourseNodeData = {
   code: string;
@@ -11,14 +11,28 @@ type CourseNodeProps = {
 };
 
 function CourseNode({ data }: CourseNodeProps) {
+  const { setNodes } = useNodesContext();
+
+  const doStuff = () => {
+    const newNode = {
+      id: "test",
+      type: "custom",
+      position: {
+        x: 0,
+        y: 0,
+      },
+      data: { code: "testing" },
+      origin: [0, 0] as [number, number],
+    };
+    setNodes(nds => nds.concat(newNode));
+  };
+
   return (
-    <div className="px-4 py-2 shadow-md rounded-md border-2 border-primary/15 bg-primary/5 group">
-      <div className="flex">
-        <div className="group-hover:hidden text-lg font-bold">{data.code}</div>
-        <div className="hidden group-hover:block transition">
-          <CourseInfo code={data.code} />
-        </div>
-      </div>
+    <div
+      onClick={doStuff}
+      className="px-4 py-2 shadow-md rounded-md border-2 border-primary/15 bg-primary/5 hover:cursor-pointer"
+    >
+      <div className="text-lg font-bold">{data.code}</div>
 
       <Handle
         type="target"
