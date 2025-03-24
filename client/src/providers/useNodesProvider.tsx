@@ -23,13 +23,13 @@ export const NodesContext = createContext<NodesContext | null>(null);
 export function NodesProvider({ children }: { children: React.ReactNode }) {
   const [nodes, setNodes, onNodesChange] = useNodesState<NodeBase>([
     {
-      id: "CSC258H5",
+      id: "CSC477H5",
       type: "custom",
       position: {
         x: 0,
         y: 0,
       },
-      data: { code: "CSC369H5" },
+      data: { code: "CSC477H5", school: "utm" },
       origin: [0, 0] as [number, number],
     },
   ]);
