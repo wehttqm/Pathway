@@ -21,7 +21,18 @@ type NodesContext = {
 export const NodesContext = createContext<NodesContext | null>(null);
 
 export function NodesProvider({ children }: { children: React.ReactNode }) {
-  const [nodes, setNodes, onNodesChange] = useNodesState<NodeBase>([]);
+  const [nodes, setNodes, onNodesChange] = useNodesState<NodeBase>([
+    {
+      id: "CSC258H5",
+      type: "custom",
+      position: {
+        x: 0,
+        y: 0,
+      },
+      data: { code: "CSC369H5" },
+      origin: [0, 0] as [number, number],
+    },
+  ]);
   const [edges, setEdges, onEdgesChange] = useEdgesState<EdgeBase>([]);
 
   return (

@@ -41,7 +41,7 @@ const Flow = () => {
         x: 0,
         y: yOffset,
       },
-      data: { code: yOffset.toString() },
+      data: { code: yOffset.toString(), area: "" },
       origin: [0, 0] as [number, number],
     };
 

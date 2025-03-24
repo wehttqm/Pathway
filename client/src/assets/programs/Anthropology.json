@@ -1,0 +1,582 @@
+[
+  {
+    "name": "ANT200H5 \u2022 Introduction to the Practice of Archaeology",
+    "description": "Archaeological theory, method and technique. Principles of scientific research will be applied to archaeological information. The course will cover the following topics: how archaeology applies the scientific method; how archaeological projects are planned and organized; how archaeological data are recovered through survey, excavation and other means; how archaeological data are organized and analyzed to produce information about the human past; the major theoretical paradigms that archaeologists use to interpret the human past.",
+    "prerequisites": "ANT101H5"
+  },
+  {
+    "name": "ANT201H5 \u2022 World Archaeology",
+    "description": "Archaeological survey of human cultural development from a global perspective, including: the elaboration of material culture; the expansion of social inequality; the development of diverse food procurement (hunter-gatherer-fisher) and food production (herding-agricultural) economies; and the changes in patterns of mobility over time and between world areas, with the growth of village and city life. Students will engage with the current state of archaeological research and some of the major issues archaeologists address in their recreations of archaeologically-based human history.",
+    "prerequisites": "ANT200H5"
+  },
+  {
+    "name": "ANT202H5 \u2022 Biological Anthropology: Human Variation and Adaptation",
+    "description": "Biological anthropology deals with the diversity and evolution of human beings and their living and fossil relatives, and how they have adapted to their environments. This course will introduce students to basic concepts of human genetics and Mendelian inheritance. The course will also describe the biological and evolutionary factors that have produced the fascinating diversity observed in human populations, and illustrate different ways in which humans have adapted to their environments.",
+    "prerequisites": { "and": [], "or": ["ANT101H5", "BIO152H5"] }
+  },
+  {
+    "name": "ANT203H5 \u2022 Biological Anthropology: Primatology and Palaeoanthropology",
+    "description": "Biological anthropology deals with the diversity and evolution of human beings and their living and fossil relatives, and how they have adapted to their environments. This course will introduce students to the remarkable biological diversity of our taxonomic order: the primates. The course will also discuss the rich fossil evidence for human evolution and its interpretation.",
+    "prerequisites": { "and": [], "or": ["ANT101H5", "BIO153H5"] }
+  },
+  {
+    "name": "ANT204H5 \u2022 Sociocultural Anthropology",
+    "description": "A general introductory course emphasizing social and political organization, economics, and the development of theory. Specific cases of social dynamics are drawn from both traditional and contemporary societies.",
+    "prerequisites": "ANT102H5"
+  },
+  {
+    "name": "ANT205H5 \u2022 Introduction to Forensic Anthropology",
+    "description": "Introduction to the field of forensic anthropology. Outlines the areas in which forensic anthropologists may contribute to a death investigation and introduces basic concepts relating to the recovery and analysis of human remains.",
+    "prerequisites": { "and": [], "or": ["ANT101H5", "BIO152H5"] }
+  },
+  {
+    "name": "ANT206H5 \u2022 Culture and Communication",
+    "description": "Introduction to linguistic anthropology and sociolinguistics. This includes: the issue of meaning in language, the use of language in context, the role of language in the organization of human activity, language and identity, the sequential organization of talk-in-interaction.",
+    "prerequisites": "ANT102H5"
+  },
+  {
+    "name": "ANT207H5 \u2022 Being Human: Classic Thought on Self and Society",
+    "description": "The question of what it means to be human has been at the core of anthropology for over two centuries, and it remains as pressing now as it ever was. This course introduces students to some classic attempts at addressing this question with specific reference to the nature of personhood and social life. By engaging with the writings of Marx, Weber, Freud, and DeBeauvoir among other great thinkers of the modern age, students will develop deeper knowledge of the major theories guiding anthropological research. We will pay close attention to how arguments are constructed in these texts and focus on the methodologies that these pioneers of social thought developed in their inquiries. The course covers enduring topics ranging from the production of social inequality, what it means to be an individual, how collective life is shaped by economic markets, and the role of religion in shaping human experience, to develop an understanding of central issues facing the world today.",
+    "prerequisites": "ANT102H5"
+  },
+  {
+    "name": "ANT208H5 \u2022 The Culture Machine: The Anthropology of Everyday Life",
+    "description": "This course will introduce students to culture and social theory via the lens of popular culture. Commodities, advertising, and new technologies will be considered in light of their cultural content. The course may consider the marketing of identities, gender, sexualities, bodies, ethnicity, religion, and ideology, as well as resistance.",
+    "prerequisites": "ANT102H5"
+  },
+  {
+    "name": "ANT209H5 \u2022 War, Trade and Aid: The Anthropology of Global Intervention",
+    "description": "This course explores how anthropology approaches the study of various interventions into human life and society. These forms of intervention--nation building, human rights, and development--differ in the scale and scope of their projects and in what they hope to accomplish. They also have much in common. Each is explicitly concerned with improving the conditions under which people live, and yet each has also been criticized for making things worse rather than better. This course will explore why this might be the case by focusing on examples taken from around the world.",
+    "prerequisites": "ANT102H5"
+  },
+  {
+    "name": "ANT210H5 \u2022 Fantasies, Hoaxes and Misrepresentations of the Ancient World",
+    "description": "Have you ever wondered why television programs like Ancient Aliens are so popular or if they have any merit? Have you also wondered why outrageous ideas about the human past seem to be more popular than the message science presents? This course critically evaluates the anatomy of significant hoaxes, outrageous claims, and just plain old \"bad archaeology\" in popular culture. Students will develop the tools to critically evaluate potential hoaxes and fictional accounts of the past by investigating a wide variety of cases that range from attempts to rewrite history using fake discoveries, to the simply outrageous claims created in order to promote racist agendas, to make money, or just for the fun of duping an unsuspecting public.",
+    "prerequisites": "ANT102H5"
+  },
+  {
+    "name": "ANT211H5 \u2022 Sex, Evolution and Behaviour",
+    "description": "This course provides an introduction to the evolutionary significance of mating behaviours and sexual reproduction in modern humans. Students will explore human sexual behaviour with an emphasis on the evolutionary explanations for our mating strategies in relation to other primates. Through lectures, films and readings students will examine such topics as sexual selection, anatomy, sexual development, social organization, and mating patterns.",
+    "prerequisites": "ANT102H5"
+  },
+  {
+    "name": "ANT214H5 \u2022 Anthropology of Food and Nutrition",
+    "description": "This course explores human food use and nutrition from a broad anthropological perspective. It examines archaeological evidence of dietary patterns of human ancestors and examines contemporary phenomena such as the preference for sweetness and lactase persistence that are the legacy of ancestral adaptations. It explores significant food revolutions, from the origins of agriculture to the relatively recent phenomenon of biotechnological food production and looks at both the positive and negative effects of these changes on patterns of human growth and health. The goal of the course is to provide students with a basic understanding of nutrition science that is contextualized in contemporary anthropological debates about the costs of changing food systems.",
+    "prerequisites": "ANT102H5"
+  },
+  {
+    "name": "ANT215H5 \u2022 How Should One Live? An Introduction to the Anthropology of Ethics",
+    "description": "Few questions are more obviously important than that which Socrates poses in Plato's Republic: \"how should one live?\" This course considers the various ways this question has been asked and the answers it has received across a range of very different contexts. It begins with Socrates' address to the Athenian assembly in The Apology and his conclusion that the examined life is the only one worth living. We then turn to the Greek past and the Homeric background against which the reflective life, that Socrates exemplified, stood in stark contrast. With this background in place we will proceed to consider the various ways in which the question of how one should live has been answered across of a range of social settings. Drawing on ethnography as well journalism and documentary film we will consider, for instance, Rastafarianism, Jainism, living \"off-grid\" in North America, deaf communities in the US, transgenderism, and non-binary gender identity.",
+    "prerequisites": "ANT102H5"
+  },
+  {
+    "name": "ANT216H5 \u2022 Racketeers, Smugglers and Pirates: Anthropology of Illegality",
+    "description": "This course will explore anthropological approaches to the study of various forms of illegal activities. Denaturalizing the state-imposed categories of legality and illegality, the course will examine how the legal-illegal divide is constructed contingently, and unpack moralities, inequalities, precarities, and forms of politics that illegal activities both rely on and make possible. The course will bring together recent ethnographies of racketeering, gang violence, piracy, human trafficking and contraband smuggling from different world regions.",
+    "prerequisites": "ANT102H5"
+  },
+  {
+    "name": "ANT217H5 \u2022 Anthropology of Law",
+    "description": "The course is designed to introduce the key concepts, issues, and methods of legal anthropology as a specific field of study in relation to the larger history of the discipline. The course will explore how anthropological works understand and examine the legal and social orders, political and normative authorities, frames of rights, regimes of crime and punishment, and forms of justice-seeking. Accounting for different understandings of law and everyday legal practices, the course readings include canonical texts of legal anthropology as well as recent ethnographies of law.",
+    "prerequisites": "ANT102H5"
+  },
+  {
+    "name": "ANT218H5 \u2022 The Social Conquest of Earth",
+    "description": "This course is a quest for the secret of human uniqueness. The success of Homo sapiens, has been described as \"a spectacular evolutionary anomaly\" that has resulted in human domination of the Earth's biosphere. We will use the comparative method to journey through the Animal Kingdom in hopes of discovering the preadaptive elements that enabled such incredible evolutionary success. On our way we will survey chimpanzee warfare, tool using octopuses, eusocial ants, and night-time hunter-gatherer sentinels - all of which will allow us to better understand the forces that shaped unparalleled cooperative networks in humans. Finally, we will investigate the cognitive and behavioural blessings and curses associated with the drive to belong to a group. The goal of the course is to equip students with a greater understanding of the human condition - and how to leverage this understanding to improve their lives.",
+    "prerequisites": "ANT102H5"
+  },
+  {
+    "name": "ANT219H5 \u2022 How Do We Know? The Social Anthropology of Knowledge",
+    "description": "\u201cHow do we know what we know?\u201d is a question that has long concerned anthropologists. And in a world like ours \u2013 where \u201cfake news,\u201d religious credos and conspiracy theories coexist with common sense, mainstream media and scientific truth(s) \u2013 the question seems more important than ever. This course explore anthropological insights into knowledge and the question of how we know. To do so we will examine a range of contemporary knowledge-making activities which may include surveillance, witchcraft, conspiracy, governance, Artificial Intelligence and Big Data.",
+    "prerequisites": "ANT102H5"
+  },
+  {
+    "name": "ANT220H5 \u2022 Introduction to the Anthropology of Health",
+    "description": "This course introduces students to the many strategies anthropologists use to understand patterns of health and disease in human populations through time. It will serve as an entry point into the Anthropology of Health focus and will be a prerequisite for later courses in Growth and Development, Infectious Disease, and the Advanced Seminar in the Anthropology of Health. In this course, the concept of health is examined using bioarchaeology, biomedicine, medical anthropology, and epidemiology. The course examines evolutionary, epigenetic, and life history approaches to understanding chronic disease risk in human populations, culminating in an investigation of the role of poverty and social inequality on disease burden. Although the course is designed as an introduction to the Health focus, it is suitable for students seeking training in pre-health disciplines and is open to all students possessing the necessary prerequisites.",
+    "prerequisites": { "and": ["ANT101H5", "ANT102H5"], "or": [] }
+  },
+  {
+    "name": "ANT221H5 \u2022 The Trust Paradox",
+    "description": "The ultimate question that all life is bound to ask is: how do I survive? Our species, evolved a uniquely human answer, which led to our ascendance as the most dominant on the planet but at what cost? This course explores a central human paradox: how altruism, community, kindness, and war and genocide are all driven by the same core adaptation. We'll call this the Trust Paradox and the evolution of this suite of traits, best described as coalitionary cognition, is one of the most complex and ancient in our species. We will explore how this, often imperceptible drive, is responsible for our capacity for both cooperation and competition, and allowed us to navigate increasingly complex social landscapes. But in our vast modern world, has this blessing become a curse?",
+    "prerequisites": "ANT101H5 and ANT102H5"
+  },
+  {
+    "name": "ANT241H5 \u2022 Anthropology and the Indigenous Peoples of Turtle Island (in Canada)",
+    "description": "This course will examine the relationship between the field of anthropology and Indigenous people of Turtle Island. We will examine the past, present, and future manifestations of this relationship. This course will emphasize Indigenous, decolonial, and community scholars. Students will be encouraged to think critically and reflect on their own world views.",
+    "prerequisites": "ANT101H5 and ANT102H5"
+  },
+  {
+    "name": "ANT280H5 \u2022 Special Topics in Biological Anthropology and Archaeology",
+    "description": "Special course on selected topics in biological anthropology and/or archaeology; focus of topic changes each year. The contact hours for this course may vary in terms of contact type (L,S,T,P) from year to year, but will be between 24-36 contact hours in total. See the UTM Timetable.",
+    "prerequisites": "ANT101H5 and ANT102H5"
+  },
+  {
+    "name": "ANT281H5 \u2022 Special Topics in Sociocultural and Linguistic Anthropology",
+    "description": "Special course on selected topics in sociocultural and/or linguistic anthropology; focus of topic changes each year. The contact hours for this course may vary in terms of contact type (L,S,T,P) from year to year, but will be between 24-36 contact hours in total. See the UTM Timetable.",
+    "prerequisites": "ANT101H5 and ANT102H5"
+  },
+  {
+    "name": "ANT299H5 \u2022 Research Opportunity Program",
+    "description": "This courses provides a richly rewarding opportunity for students in their second year to work in the research project of a professor in return for 299H5 course credit. Students enrolled have an opportunity to become involved in original research, learn research methods and share in the excitement and discovery of acquiring new knowledge. Based on the nature of the project, projects may satisfy the Sciences or Social Sciences distribution requirement. Participating faculty members post their project descriptions for the following summer and fall/winter sessions in early February and students are invited to apply in early March. SeeExperiential and International Opportunitiesfor more details.",
+    "prerequisites": "ANT101H5 and ANT102H5"
+  },
+  {
+    "name": "ANT299Y5 \u2022 Research Opportunity Program",
+    "description": "This courses provides a richly rewarding opportunity for students in their second year to work in the research project of a professor in return for 299Y course credit. Students enrolled have an opportunity to become involved in original research, learn research methods and share in the excitement and discovery of acquiring new knowledge. Based on the nature of the project, projects may satisfy the Sciences or Social Sciences distribution requirement. Participating faculty members post their project descriptions for the following summer and fall/winter sessions in early February and students are invited to apply in early March. SeeExperiential and International Opportunitiesfor more details.",
+    "prerequisites": "ANT101H5 and ANT102H5"
+  },
+  {
+    "name": "ANT300H5 \u2022 Cultural Heritage Management: The Past in the Present and for the Future",
+    "description": "Cultural Heritage Management, also known as cultural resource management or applied archaeology, aims to protect traces of the past such as artifacts, archaeological sites and cultural landscapes, that have meaning for people in the present. This course takes a broad look at cultural heritage, why it matters in the present, and why we need to preserve aspects of it for the future. Topics may include stakeholders and the politics of the past, mechanisms for the protection of heritage and archaeological sites, the heritage management industry, and the methods used to identify, document, and mitigate impacts to archaeological sites, and to preserve the materials recovered.",
+    "prerequisites": { "and": ["ANT200H5", "ANT201H5"], "or": [] }
+  },
+  {
+    "name": "ANT306H5 \u2022 Forensic Anthropology Field School",
+    "description": "Introduction to the field of forensic anthropological field techniques and scene interpretation. A 2-week field school will be held on the U of T Mississauga campus (Monday to Friday 9 a.m. to 5 p.m., two weeks in August). Weekly 2-hour classes will be held during the fall term. In these classes, students will examine casts, maps, photos and other evidence collected in the field, for the purposes of scene reconstruction and presentation in court. Limited Enrolment and Application Process: see Anthropology department website for more details.",
+    "prerequisites": "ANT205H5"
+  },
+  {
+    "name": "ANT310H5 \u2022 Political Anthropology of Ancient States",
+    "description": "Today most people live in state-level societies. But 8,000 years ago, no one did. Why such a dramatic change? This comparative analysis of ancient, complexly organized societies is focused on understanding the processes involved in the functioning of states, examining how various political, social, economic, and religious orientations affected state information, cohesion, maintenance and dissolution. What were the range of alternatives explored in the earliest and later complexly organized societies that developed around the world?",
+    "prerequisites": { "and": ["ANT200H5", "ANT201H5"], "or": [] }
+  },
+  {
+    "name": "ANT312H5 \u2022 Archaeological Analysis",
+    "description": "This course will introduce the process of archaeological research, from project design through report write-up. The student will create a project proposal, choose methods of survey and excavation, describe and organize data for analysis, and summarize findings in a project report.",
+    "prerequisites": { "and": ["ANT200H5", "ANT201H5"], "or": [] }
+  },
+  {
+    "name": "ANT313H5 \u2022 China, Korea and Japan in Prehistory",
+    "description": "The exploration of the remarkable prehistories of China, the Koreas and Japan challenge western thought on agricultural origins, complex hunter-gatherers, urbanization and the development of centralized authority. This course evaluates current thinking about these issues in the three regions and examines the impact of local archaeological practice on the construction of narratives about the past.",
+    "prerequisites": { "and": ["ANT200H5", "ANT201H5"], "or": [] }
+  },
+  {
+    "name": "ANT314H5 \u2022 History of Archaeological Theory",
+    "description": "This course examines major schools of archaeological thought over time. We will explore how theoretical approaches to archeological explanations of the human past affect and are affected by how archaeologists investigate research questions and interpret archaeological evidence. Readings include historically important key works as well as recent syntheses.",
+    "prerequisites": { "and": ["ANT200H5", "ANT201H5"], "or": [] }
+  },
+  {
+    "name": "ANT316H5 \u2022 South Asian Archaeology",
+    "description": "This course surveys the archaeology of South Asia (modern-day India, Pakistan, Sri Lanka and northern regions) from the Palaeolithic to the Medieval Period (+200,000 ya to ca. 1600 CE/AD) using a comparative framework. South Asia is a place where many external cultural traditions mixed with indigenous traditions to create new socioeconomic and sociopolitical entities and sequences. While we will examine classic examples of hunter-gatherer groups, early villages, urban settlements, regional polities, and large empires through time, we will also stress the contemporaneity of groups of people with very different lifestyles -- hunter-gatherers participated in trading networks with town and city dwellers, pastoral nomads moved through settled village regions during their annual migrations. The impact of archaeological research on the region today is seen through the politicization of South Asian prehistory and history that has strongly affected both interpretations of the past and modern political events. Cases such as the debate over the identity of the Harappans and the existence of the Aryans will be evaluated from both an archaeological and a political perspective.",
+    "prerequisites": {
+      "and": [],
+      "or": [
+        { "and": ["ANT200H5", "ANT201H5"], "or": [] },
+        "HIS282H5",
+        "RLG205H5"
+      ]
+    }
+  },
+  {
+    "name": "ANT317H5 \u2022 Archaeology of Indigenous Eastern North America",
+    "description": "This course is a survey from an archaeological perspective of Indigenous history in Ontario and the Eastern Woodlands of North America from earliest times until colonization. Themes examined will include technology, subsistence, shelter, landscape use, art, and trade and how these vary in time and space.",
+    "prerequisites": { "and": ["ANT200H5", "ANT201H5"], "or": [] }
+  },
+  {
+    "name": "ANT318H5 \u2022 Archaeological Fieldwork",
+    "description": "Introduction to archaeological field methods. Practical component of the field school takes place on the UTM campus during the last two weeks of August (Monday-Friday 9:00 am \u2013 5:00 pm). Morning lectures (week one) covering note taking, map making, cultural landscapes, material culture identification and survey and excavation methods, are followed by afternoons in the field applying skills taught that morning. Week two is spent excavating at an archaeological site. During weekly laboratory sessions September \u2013 December students learn to process, identify, and catalogue artifacts recovered during the field component. Limited Enrolment and Application Process: see Anthropology department website for more details.",
+    "prerequisites": { "and": ["ANT200H5", "ANT201H5"], "or": [] }
+  },
+  {
+    "name": "ANT320H5 \u2022 Archaeological Approaches to Technology",
+    "description": "Using hands-on learning as a primary approach, this course focuses on insights into social and cultural processes provided by the study of ancient and historic technology. Experimental, ethnographic, archaeological, and textual data are used to examine topics such as organization and control of production, style of technology, and the value of objects. Throughout, we will discuss social and cultural as well as economic and functional reasons for the development and adoption of new technologies.",
+    "prerequisites": { "and": ["ANT200H5", "ANT201H5"], "or": [] }
+  },
+  {
+    "name": "ANT322H5 \u2022 Anthropology of Youth",
+    "description": "This course will present various perspectives on the nature and dynamics of youth culture. The course will examine one or more of the following: capitalism and youth cultures, ethnomusicology, and discourses of \"youth.\" Topics may include North American subcultures (such as punk and hip-hop) and/or ethnographies of youth from other parts of the world. The course may also use frameworks from cultural studies and semiotics.",
+    "prerequisites": { "and": [], "or": ["ANT204H5", "ANT207H5"] }
+  },
+  {
+    "name": "ANT327H5 \u2022 Agricultural Origins:  The Second Revolution",
+    "description": "A second revolution in human existence began when people developed agriculture long after the origin of modern humans and Upper Palaeolithic culture. This course critically evaluates the shift to agriculture in the context of current ecological and archaeological perspectives. The concept of \"agriculture\" is evaluated by considering plant and animal domestication as well as resource management in a broad range of contexts.",
+    "prerequisites": { "and": ["ANT200H5", "ANT201H5"], "or": [] }
+  },
+  {
+    "name": "ANT331H5 \u2022 The Biology of Human Sexuality",
+    "description": "Human sexual behaviours will be examined through the lens of evolutionary theory. Through lectures and readings, students will examine such topics as genetic, hormonal, and environmental determinants of sex, sexual selection, and the influence of sex on life history and behaviour. Students will discuss research that has been published in this area, and will develop critical assessments of the literature and films.",
+    "prerequisites": { "and": [], "or": ["ANT202H5", "ANT203H5", "ANT211H5"] }
+  },
+  {
+    "name": "ANT332H5 \u2022 Human Origins I: Early Ancestors to Homo",
+    "description": "What does it mean to be human? Paleoanthropologists address this question by using fossil evidence to piece together our evolutionary history. Who we are today is a product of our biological and geological past. We will begin this quest by looking at ourselves as primates, and then we will traverse back through time to study primate origins, evolution, adaptations, and behaviour until we reach our genus, Homo.",
+    "prerequisites": { "and": ["ANT202H5", "ANT203H5"], "or": [] }
+  },
+  {
+    "name": "ANT333H5 \u2022 Human Origins II: The genus Homo",
+    "description": "What does it mean to be human? This course will examine the evolutionary journey through the genus Homo by examining the fossil evidence and the archeological record. Through this examination we will discover the unique biological and behavioural characteristics of modern humans.",
+    "prerequisites": "ANT332H5"
+  },
+  {
+    "name": "ANT334H5 \u2022 Human Osteology",
+    "description": "In this course students are given hands-on experience in the identification of the normal anatomy of the adult human skeleton with accompanying muscle function. Metrical variation, growth and development, bone histology, and methods of individual identification are introduced.",
+    "prerequisites": { "and": ["ANT202H5", "ANT203H5"], "or": [] }
+  },
+  {
+    "name": "ANT335H5 \u2022 Anthropology of Gender",
+    "description": "Gender concerns the ways that groups define and experience what it is to be male, female, or a gender identity in-between or outside of that binary, and in all societies the boundaries of gender categories are both policed and resisted. In this course we examine how gender is made materially, discursively, and through intersections with other structures of inequality (e.g. race, sexuality, class, etc.).",
+    "prerequisites": { "and": [], "or": ["ANT204H5", "ANT206H5", "ANT207H5"] }
+  },
+  {
+    "name": "ANT337H5 \u2022 Anthropology of Growth and Development",
+    "description": "This course examines the fundamental biological principles of growth and how these are expressed throughout evolution. It explores the evolution of growth patterns among primates and hominins and compares patterns of growth among the living primates. The course examines human growth and development throughout infancy, childhood, and adolescence and explores the influence of genetic, epigenetic, and endocrine processes on the plasticity of human growth that ultimately produces the variability observed in our species. The goal of the course is to provide students with a complex understanding of how evolutionary and environmental processes interact in the production of growth and health in human populations.",
+    "prerequisites": {
+      "and": [{ "and": [], "or": ["ANT202H5", "ANT203H5"] }, "ANT220H5"],
+      "or": []
+    }
+  },
+  {
+    "name": "ANT338H5 \u2022 Laboratory Methods in Biological Anthropology",
+    "description": "This lab methods course focuses on laboratory techniques used by biological anthropologists to assess growth, health, and risk of chronic disease in human populations. In this course students will gain practical, hands-on experience in nutrition assessment, anthropometry, physical activity and sleep assessment, and human energy expenditure. State-of-the-art instruments and software are employed, ensuring students gain valuable knowledge of data management and analysis using applications suitable in both clinical and research settings.",
+    "prerequisites": {
+      "and": [{ "and": [], "or": ["ANT202H5", "ANT203H5"] }, "ANT220H5"],
+      "or": []
+    }
+  },
+  {
+    "name": "ANT340H5 \u2022 Osteological Theory and Methods",
+    "description": "This course instructs students in the osteological methods used to interpret the life course of past populations, and the theory underlying these analyses. We will explore how skeletal analyses are employed to interpret group identity and behaviour using a biocultural approach and will address ethical issues pertaining to human remains, including the goals of descendant populations. The theoretical underpinnings of osteobiographical analyses, biological distance studies, paleopathology, and paleodemography will be outlined. Students will observe human morphological skeletal variation as a result of taphonomic processes, sex, age, pathological conditions, and non-metric variance.",
+    "prerequisites": "ANT334H5"
+  },
+  {
+    "name": "ANT341H5 \u2022 Anthropology of Infectious Disease",
+    "description": "Infection is situated at the intersection of social and biological experience. This course examines why infectious disease occupies such a central position in our contemporary understanding of health. It examines the many theoretical and methodological approaches currently used to understand how humans experience infectious illness. Perspectives from bioarchaeology, demography, environmental anthropology, medical history, biocultural anthropology, and medical anthropology are used to examine the way epidemics and infections have been understood throughout human history and how those understandings continue to shape human perceptions of risk, the body and identity. Social inequality is a major focus of inquiry; the course explores how colonialism, globalization and injustice lead to significant and persistent health inequalities for many populations.",
+    "prerequisites": {
+      "and": [{ "and": [], "or": ["ANT202H5", "ANT204H5"] }, "ANT220H5"],
+      "or": []
+    }
+  },
+  {
+    "name": "ANT350H5 \u2022 Globalization and the Changing World of Work",
+    "description": "The course uses ethnographic material to examine ways in which global forces have changed the nature of work in different sites since World War Two -- North America, Europe, and the countries of the South are selectively included.",
+    "prerequisites": { "and": [], "or": ["ANT204H5", "ANT207H5"] }
+  },
+  {
+    "name": "ANT351H5 \u2022 Money, Markets, Gifts: Topics in Economic Anthropology",
+    "description": "Sociocultural anthropology has, since its inception, questioned the assumption that \"the economy\" ought to be understood as a domain distinguishable from other fields of human interaction, such as religion and kinship, or from power, politics, affect, and morality. This class offers a set of introductory readings that range from the analysis of non-Western forms of exchange and value to the study of capitalism; from stock-markets to the anti-globalization movement.",
+    "prerequisites": { "and": [], "or": ["ANT204H5", "ANT207H5"] }
+  },
+  {
+    "name": "ANT352H5 \u2022 Protest, Power and Authority: Topics in Political Anthropology",
+    "description": "This course explores ethnographically the social and cultural practices through which the exercise of power is legitimized, authorized, and contested, examining such topics as nation-building, non-governmental activism, human rights, and the global \"war on terror.\"",
+    "prerequisites": {
+      "and": [],
+      "or": ["ANT204H5", "ANT207H5", "POL113H5", "POL200Y5"]
+    }
+  },
+  {
+    "name": "ANT353H5 \u2022 Queer Bodies: Gender, Disability, and Illness",
+    "description": "This course explores key concepts in medical anthropology, disability studies, and gender and queer studies by examining how gender and sexuality matter in the contexts of illness and disability across a range of institutional, social, and national contexts. Students will learn to think critically about the body as a site of power configured in the social and material fields of heath/illness, dis/ability, race, and gender and sexuality.",
+    "prerequisites": { "and": [], "or": ["ANT204H5", "ANT207H5"] }
+  },
+  {
+    "name": "ANT354H5 \u2022 Capitalism and its Rebels",
+    "description": "This class explores different forms of rebellion, insurgency, protest and political mobilization from an anthropological perspective, focusing specifically on anti-capitalist mobilizations. Grounded in ethnographies that range from studies of piracy, hacking, and the occupy movements, to struggles against the privatization of water and social movements organizing for \"the commons,\" this course offers key insight into contemporary social movements, their deep groundings in the past, and the implications they might have for the future.",
+    "prerequisites": { "and": [], "or": ["ANT204H5", "ANT207H5"] }
+  },
+  {
+    "name": "ANT355H5 \u2022 Disabled Cyborgs and Racist Robots: Bodies, Technologies, and Social Justice",
+    "description": "How does technology mediate our ideas about the social differences of disability, race, and gender? By rethinking the role of technology in reproducing social disparities and challenging bioethical debates about enhancement, students will emerge with the tools to reimagine the relationship between technology, the human body, and social justice.",
+    "prerequisites": "8.0 credits of which 0.5 credits must be a social sciences or humanities course at the 200-level or higher"
+  },
+  {
+    "name": "ANT356H5 \u2022 War, Peace, and Revolution in the Middle East: Anthropological Perspectives on Political Conflicts",
+    "description": "This course will explore political violence and social change in the modern Middle East. What forms of loyalty, authority or rivalry have accompanied political violence? What economic activities and relations have been shaped by political conflict and peace in the region? What are the historical origins of nation-states, political regimes, and social movements in the region? By taking a historical and anthropological look at political conflict and change, this course will examine the transformations of the region in the last two centuries.",
+    "prerequisites": { "and": [], "or": ["ANT204H5", "ANT207H5"] }
+  },
+  {
+    "name": "ANT357H5 \u2022 Nature, People and Power: Topics in Environmental Anthropology",
+    "description": "This course examines anthropological approaches to the environment and environmentalism. Through key readings on indigenous peoples and conservation, traditional ecological knowledge, community-based natural resource management, ecotourism and the human dimensions of climate change, the course explores the complex social, cultural and political encounters that produce 'the environment' as a resource in need of management.",
+    "prerequisites": { "and": [], "or": ["ANT204H5", "ANT207H5", "ENV100Y5"] }
+  },
+  {
+    "name": "ANT358H5 \u2022 Field Methods in Sociocultural Anthropology",
+    "description": "This course investigates how sociocultural and/or linguistic anthropologists collect data, conduct fieldwork, and interpret research results. The course will benefit students who want to gain an appreciation of research design and practice and those considering graduate-level work in anthropology or another social science.",
+    "prerequisites": { "and": [], "or": ["ANT204H5", "ANT207H5"] }
+  },
+  {
+    "name": "ANT360H5 \u2022 Anthropology of Religion",
+    "description": "This course considers anthropological approaches to western and non-western religions and religious phenomena.",
+    "prerequisites": { "and": [], "or": ["ANT204H5", "ANT207H5"] }
+  },
+  {
+    "name": "ANT362H5 \u2022 Language in Culture and Society",
+    "description": "The course aims to introduce students to theoretical questions and contemporary research in linguistic anthropology. Topics include language ideologies, language and media, language and embodiment, as well as core theories in linguistic anthropology.",
+    "prerequisites": { "and": ["ANT207H5", "ANT206H5"], "or": ["ANT204H5"] }
+  },
+  {
+    "name": "ANT363H5 \u2022 Magic and Science",
+    "description": "What's the difference between magic and science? Is there one? This course explores anthropological approaches to magic and science and related topics, raising basic questions about the nature of knowledge: what can we know about the world, and how can we know it? Through close readings of key anthropological texts, we consider what--if anything--differentiates magic and science, belief and truth, subjectivity and objectivity, irrationality and rationality.",
+    "prerequisites": { "and": [], "or": ["ANT204H5", "ANT207H5"] }
+  },
+  {
+    "name": "ANT364H5 \u2022 Fieldwork in Language, Culture, and Society",
+    "description": "This course will give students hands-on experience in methods for recording, transcribing, coding, and analyzing ethnographic data in linguistic anthropology. Students will synthesize weekly reading materials focused on these methods with actual, collaborative, in-class practice on a designated topic in the anthropology of everyday social interaction. Through this synthesis students will come to discern the relationship between everyday instances of communication between people and what the patterns of speech in this interaction may say about larger society. Students will be expected to develop their own analyses of the data collected under the guidance of the instructor and to formulate a final project.",
+    "prerequisites": { "and": [], "or": ["ANT204H5", "ANT206H5", "JAL353H5"] }
+  },
+  {
+    "name": "ANT365H5 \u2022 Meaning, Self, Society",
+    "description": "Humans, to paraphrase Clifford Geertz, are suspended in webs of meaning that they themselves have spun. This course introduces students to the tools anthropologists and others have developed in order to analyze and understand these \"webs of meaning.\" Readings in philosophy, cultural theory and ethnography will be used to engage with questions regarding the construction of meaning in relation to ethnic identity, social structure, gender, political economy, personhood, and religion. Drawing on classic texts and the tools of semiotics, students will learn to apply the lens of symbolic analysis to interpret a range of contemporary social phenomena.",
+    "prerequisites": { "and": [], "or": ["ANT204H5", "ANT207H5"] }
+  },
+  {
+    "name": "ANT367H5 \u2022 Sister Species: Lessons from the chimpanzee",
+    "description": "Chimpanzees are our closest living relatives. In this course we will examine chimpanzee behavior, ecology, morphology, physiology, language, intelligence, and genetics. Through lectures, labs, films and writing assignments we will get an intimate look at every aspect of chimpanzee biology and behavior. Among questions asked will be: Why do animals use or not use tools? Why are animals aggressive? How does physiology influence what chimpanzees can eat and what's healthy to eat? Can chimpanzees use language? Do chimpanzees use medicine? Just how different are chimpanzee bones, muscles, and brains from our own? Throughout the class we will turn to use chimpanzees as a model to better understand ourselves and our place in nature.",
+    "prerequisites": { "and": ["ANT202H5", "ANT203H5"], "or": [] }
+  },
+  {
+    "name": "ANT368H5 \u2022 World Religions and Ecology",
+    "description": "A study of the responses of selected world religious traditions to the emergence of global ecological concerns. Key concepts and tenets of the traditions and their relevance for examination of the environment crisis. In some years, students may additionally have the option of participating in an international learning experience during Reading Week that will have an additional cost and application process.",
+    "prerequisites": {
+      "and": [],
+      "or": ["ANT204H5", "ANT207H5", "RLG101H5", "ENV100Y5"]
+    }
+  },
+  {
+    "name": "ANT369H5 \u2022 Religious Violence and Nonviolence",
+    "description": "Religious violence and nonviolence as they emerge in the tension between strict adherence to tradition and individual actions of charismatic figures. The place of violence and nonviolence in selected faith traditions.",
+    "prerequisites": { "and": [], "or": ["ANT204H5", "ANT207H5", "RLG101H5"] }
+  },
+  {
+    "name": "ANT370H5 \u2022 Environment, Culture and Film",
+    "description": "Our present environmental challenge constitutes of the most pressing areas of contemporary social, cultural, ethical and ecological concern. Acid rain, poisoned air, forest clear-cutting, ozone depletion, global climate change, toxic waste sites--the list goes on--all weigh heavily on our personal and intellectual lives. This course attempts to introduce students to both the scope and seriousness of present ecological concerns, as well as some core principles and concepts in the field of the intersection of environment and culture, through the lens of feature films. Themes such as the precautionary principle, urban/rural dualisms, ecofeminism, deep ecology, and the overwhelming burden placed on poor populations by environmental destruction are but a few of the areas which will be examined through the use of feature films, both classic and contemporary. We will do this in part by touching on some of the major writers and classic essays in the field, Class lectures will be supplemented by audiovisuals, guest lectures and class discussions.",
+    "prerequisites": { "and": [], "or": ["ANT204H5", "ANT207H5", "ENV100Y5"] }
+  },
+  {
+    "name": "ANT371H5 \u2022 The Natural City: Cultural Approaches to Urban Sustainability",
+    "description": "Since 2007, for the first time in human history, more than half the world\u2019s peoples live in cities. It is estimated that by 2030 over 60% will be urban dwellers. This demographic shift suggests that for many (if not most) people, their primary encounter with \u201cnature\u201d will be urban-based. This course explores \"the city\" through a multispecies lens and challenges assumptions about the human-centeredness (anthropocentrism) of urban places. In this course students are invited to utilize a variety of approaches, including arts-based ethnography, journaling, archival research, photography, sound-scaping, et al., as we explore the following questions: How do ideas about nature-culture shape our interactions with nonhumans in cities? How do built environments structure human-nonhuman relationships in urban spaces? How have human-nonhuman interactions changed over time in cities? How can we foster more compassionate and caring relationships with nonhumans in cities - and how might we do this in the context of social-ecological injustices and climate change? What might a thriving multispecies city of the future look like?",
+    "prerequisites": "ANT204H5 or ANT207H5 or ENV100Y5 or permission of department"
+  },
+  {
+    "name": "ANT380H5 \u2022 Special Topics in Biological Anthropology and Archaeology",
+    "description": "Special course on selected topics in biological anthropology and/or archaeology; focus of topic changes each year. The contact hours for this course may vary in terms of contact type (L,S,T,P) from year to year, but will be between 24-36 contact hours in total. See the UTM Timetable.",
+    "prerequisites": "Appropriate 200-level prerequisite core course requirement(s) will be posted on the departmental website along with the Special Topics title and description prior to course registration."
+  },
+  {
+    "name": "ANT381H5 \u2022 Special Topics in Sociocultural and Linguistic Anthropology",
+    "description": "Special course on selected topics in sociocultural and/or linguistic anthropology; focus of topic changes each year. The contact hours for this course may vary in terms of contact type (L,S,T,P) from year to year, but will be between 24-36 contact hours in total. See the UTM Timetable.",
+    "prerequisites": "Appropriate 200-level prerequisite core course requirement(s) will be posted on the departmental website along with the Special Topics title and description prior to course registration."
+  },
+  {
+    "name": "ANT397H5 \u2022 Independent Study",
+    "description": "This independent study course is designed to offer students advanced supervised reading and initial research planning on an anthropological topic not covered in other courses, or covered only briefly. Students who wish to pursue this option with a specific faculty member should approach the faculty member early - before the start of the academic term - to negotiate the reading and study program.",
+    "prerequisites": "Permission of Instructor and Permission of Department"
+  },
+  {
+    "name": "ANT397Y5 \u2022 Independent Study",
+    "description": "This independent study course is designed to offer students advanced supervised reading and initial research planning on an anthropological topic not covered in other courses, or covered only briefly. Students who wish to pursue this option with a specific faculty member should approach the faculty member early - before the start of the academic term - to negotiate the reading and study program.",
+    "prerequisites": "Permission of Instructor and Permission of Department"
+  },
+  {
+    "name": "ANT398H5 \u2022 Independent Reading",
+    "description": "This independent reading course is designed to offer students advanced supervised reading on an anthropological topic not covered in other courses, or covered only briefly. Students who wish to pursue this option with a specific faculty member should approach the faculty member early - before the start of the academic term - to negotiate the reading program.",
+    "prerequisites": "Permission of Instructor and Permission of Department"
+  },
+  {
+    "name": "ANT398Y5 \u2022 Independent Reading",
+    "description": "This independent reading course is designed to offer students advanced supervised reading on an anthropological topic not covered in other courses, or covered only briefly. Students who wish to pursue this option with a specific faculty member should approach the faculty member early - before the start of the academic term - to negotiate the reading program.",
+    "prerequisites": "Permission of Instructor and Permission of Department"
+  },
+  {
+    "name": "ANT399H5 \u2022 Research Opportunity Program",
+    "description": "This course provides senior undergraduate students who have developed some knowledge of a discipline and its research methods an opportunity to work in the research project of a professor in return for course credit. Students enrolled have an opportunity to become involved in original research, develop their research skills and share in the excitement and discovery of acquiring new knowledge. Based on the nature of the project, projects may satisfy the Sciences or Social Sciences distribution requirement. Participating faculty members post their project descriptions for the following summer and fall/winter sessions in early March. SeeExperiential and International Opportunitiesfor more details.",
+    "prerequisites": "Permission of Instructor and Permission of Department"
+  },
+  {
+    "name": "ANT399Y5 \u2022 Research Opportunity Program",
+    "description": "This course provides senior undergraduate students who have developed some knowledge of a discipline and its research methods an opportunity to work in the research project of a professor in return for course credit. Students enrolled have an opportunity to become involved in original research, develop their research skills and share in the excitement and discovery of acquiring new knowledge. Based on the nature of the project, projects may satisfy the Sciences or Social Sciences distribution requirement. Participating faculty members post their project descriptions for the following summer and fall/winter sessions in early March. SeeExperiential and International Opportunitiesfor more details.",
+    "prerequisites": "Permission of Instructor and Permission of Department"
+  },
+  {
+    "name": "ANT402H5 \u2022 Wild Nights: Sleep, evolution, and performance in the 21st century",
+    "description": "Sleep is essential to cognitive function and health in humans, yet the ultimate reasons for sleep - that is, 'why' we sleep - remains mysterious. This course integrates research findings from human sleep studies, the ethnographic record, and the ecology and evolution of mammalian and primate sleep to better understand sleep along the human lineage and in the modern world. Students will learn how to use 'wearable' technology, such as actigraphy, for scientific research. The goal of the course is to empower students with the theoretical and technological tools to be able to not only critically assess their own sleep-wake behaviour and performance but also popular generalizations about how to maximize long-term health outcomes.",
+    "prerequisites": "(ANT202H5 or ANT203H5 or ANT220H5) and 2.0 credits in 300-400 level Anthropology or Psychology or Biology courses"
+  },
+  {
+    "name": "ANT403H5 \u2022 Social Learning and Cultural Patterns",
+    "description": "Social learning is fundamental to human experience, through which individuals, societies, and generations share information and practices, and form cultural patterns and norms. Learning how to do something is also learning how to be a member of a society. Understanding social learning enables us to make the connections between the population-level, intergenerational cultural phenomena and the measurable individual-level process. This course uses case studies from anthropology, psychology, and biology to discuss the social, psychological, and biological foundations of social learning and the roles of social learning in enabling the accumulation of knowledge in human societies and shaping cultural patterns.",
+    "prerequisites": "At least 1.5 credits from (ANT200H5 or ANT201H5 or ANT202H5 or ANT204H5 or ANT206H5 or ANT218H5) and 2.0 credits at the 300-400 level in Anthropology or Psychology or Biology courses"
+  },
+  {
+    "name": "ANT404H5 \u2022 Current Topics in Palaeoanthropology",
+    "description": "This course will introduce students to cutting-edge developments in the palaeoanthropological field. The weekly seminars will be strongly research-based, incorporating the latest discoveries, publications and debates. This course will also involve an in-class practical component during which the extensive cast collection in the department will be utilized, together with new 3D methods for fossil visualization. The goal of this course is to: 1) reinforce key theoretical concepts traditionally applied in the field, and 2) provide students with knowledge of the more recent debates and methodological approaches currently pushing the boundaries of palaeoanthropology.",
+    "prerequisites": "ANT202H5 and ANT203H5 and 1.0 credits in 300-level anthropology courses and departmental approval."
+  },
+  {
+    "name": "ANT405H5 \u2022 Behind Bars: Anthropology of Institutions and Confinement",
+    "description": "This course explores confinement, institutions, and incarceration from a broad anthropological perspective. Bioarchaeological, archaeological, and ethnographic research on institutions (e.g., asylums, poorhouses, prisons) will be critically examined. The goal of the course is to provide students with a complex understanding of institutionalization through time and how health vulnerabilities are created and recreated.",
+    "prerequisites": { "and": ["ANT200H5", "ANT220H5"], "or": [] }
+  },
+  {
+    "name": "ANT407H5 \u2022 Quantitative Methods in Archaeology and Biological Anthropology",
+    "description": "This course will provide students with the basic analytic background necessary to evaluate quantitative data in biological anthropology and archaeology. Students will be introduced to foundational statistical concepts and research methods suitable for anthropological exploration. The focus will be on analysing univariate and bivariate data using both nonparametric and parametric statistical techniques, hypothesis testing, and methods of data collection. The goal of this course is for students to learn how to manipulate simple datasets, ask and answer theoretically relevant questions, and choose the appropriate statistical test for a given research problem. Students will receive hands-on training during lab components and will learn how to analyse data using relevant statistical software. Students will have access to a number of biological anthropology and archaeology datasets for class assignments. No prior knowledge of statistics and mathematics is required.",
+    "prerequisites": {
+      "and": [],
+      "or": [
+        { "and": ["ANT200H5", "ANT201H5"], "or": [] },
+        { "and": ["ANT202H5", "ANT203H5"], "or": [] }
+      ]
+    }
+  },
+  {
+    "name": "ANT414H5 \u2022 People and Plants in Prehistory",
+    "description": "The relationship between plants and people through time offers important insights into our past, particularly human-environmental interaction, plant domestication, and agricultural origins and development. Students will learn archaeological plant remains identification and interpretation skills through a combination of laboratory and seminar sessions. In some years, students may additionally have the option of participating in an international learning experience during Reading Week that will have an additional cost and application process. Skills learned in this course are also useful in forensic investigations. Students will develop a project based on archaeological material from Japan and/or Ontario in consultation with the instructor.",
+    "prerequisites": "ANT200H5 and ANT201H5 and 0.5 credit at a 300-level archaeology course, or permission of department"
+  },
+  {
+    "name": "ANT415H5 \u2022 Faunal Archaeo-Osteology",
+    "description": "Examination and interpretation of faunal material from archaeological sites, to obtain cultural information regarding the site occupants.",
+    "prerequisites": {
+      "and": [
+        { "and": ["ANT200H5", "ANT201H5"], "or": [] },
+        { "and": [], "or": ["ANT306H5", "ANT308H5", "ANT312H5", "ANT318H5"] }
+      ],
+      "or": []
+    }
+  },
+  {
+    "name": "ANT416H5 \u2022 Advanced Archaeological Analysis",
+    "description": "This course will involve students in applied laboratory methods in archaeology. Each student will engage in an individual research project on an archaeological data set. Techniques will include basic description, measurement, quantitative analysis and qualitative analysis. The primary focus will be ceramic and lithic analysis.",
+    "prerequisites": "ANT312H5"
+  },
+  {
+    "name": "ANT418H5 \u2022 Advanced Archaeological Fieldwork",
+    "description": "Practical experience for students who completedANT318H5and are ready for more advanced field experiences. During practical component (last two weeks of August, Monday-Friday 9:00 am \u2013 5:00 pm) students have responsibility for recording/documenting an archaeological site in the field, including survey and detailed mapping. Students also act as mentors to ANT318 students during pedestrian and subsurface survey, and excavation. During weekly laboratory sessions September \u2013 December students process, identify, and catalogue artifacts, and learn to write an archaeological report and site record form. Limited Enrolment and Application Process: see Anthropology department website for more details.",
+    "prerequisites": "ANT318H5"
+  },
+  {
+    "name": "ANT430H5 \u2022 Special Problems in Biological Anthropology and Archaeology",
+    "description": "Special seminar on selected topics in biological anthropology and/or archaeology; focus of seminar changes each year.",
+    "prerequisites": "Appropriate 200-level and/or 300-level prerequisite core course requirement(s) will be posted on the departmental website along with the Special Topics title and description prior to course registration."
+  },
+  {
+    "name": "ANT431H5 \u2022 Special Problems in Sociocultural and Linguistic Anthropology",
+    "description": "Special seminar on selected topics in sociocultural and/or linguistic anthropology; focus of seminar changes each year.",
+    "prerequisites": "Appropriate 200-level and/or 300-level prerequisite core course requirement(s) will be posted on the departmental website along with the Special Topics title and description prior to course registration."
+  },
+  {
+    "name": "ANT432H5 \u2022 Advanced Seminar in Biological Anthropology and Archaeology",
+    "description": "Special seminar on selected topics in any scientific aspect of anthropology, including one or more sub-fields; focus of seminar changes each year. The contact hours for this course may vary in terms of contact type (L,S,T,P) from year to year, but will be between 24-36 contact hours in total. See the UTM Timetable.",
+    "prerequisites": "Appropriate 200-level and/or 300-level prerequisite core course requirement(s) will be posted on the departmental website along with the Special Topics title and description prior to course registration."
+  },
+  {
+    "name": "ANT433H5 \u2022 Advanced Seminar in Sociocultural and Linguistic Anthropology",
+    "description": "Special seminar on selected topics in any social science aspect of anthropology, including one or more sub-fields; focus of seminar changes each year. The contact hours for this course may vary in terms of contact type (L,S,T,P) from year to year, but will be between 24-36 contact hours in total. See the UTM Timetable.",
+    "prerequisites": "Appropriate 200-level and/or 300-level prerequisite core course requirement(s) will be posted on the departmental website along with the Special Topics title and description prior to course registration."
+  },
+  {
+    "name": "ANT434H5 \u2022 Palaeopathology",
+    "description": "The study of diseases and maladies of ancient populations. The course will survey the range of pathology on human skeletons, (trauma, infection, syphilis, tuberculosis, leprosy, anemia, metabolic disturbances, arthritis and tumors).",
+    "prerequisites": "ANT334H5"
+  },
+  {
+    "name": "ANT436H5 \u2022 Theory and Methods in Molecular Anthropology",
+    "description": "Survey of theory and methods in molecular anthropology, a subdiscipline of anthropology that attempts to understand human evolution and the variation observed in our species using molecular information.",
+    "prerequisites": "(ANT202H5 and ANT203H5) and 1.0 credits in 300 level Anthropology courses"
+  },
+  {
+    "name": "ANT437H5 \u2022 Advanced Seminar in the Anthropology of Health",
+    "description": "This course is the culmination of the undergraduate Anthropology of Health focus and aims to prepare students for workplace application and graduate study in a wide range of clinical and research domains. The course brings together diverse branches of biological investigation (human biology, nutrition, growth and development, chronic and communicable disease) and undertakes a critical examination of theory and methods used in the study of human health. It traces the historical development of the powerful biomedical paradigm that dominates health research today and uses a critical lens to examine the systems used to measure and classify health and disease. It explores evolutionary and biological approaches to understanding human health by examining the concepts of adaptation and plasticity, genetic and epigenetic approaches, developmental origins and life history theories, social determinants of health, and critical medical anthropology. The course explores the profoundly influential role of social inequality on the production and reproduction of health in historical and contemporary populations.",
+    "prerequisites": {
+      "and": [{ "and": [], "or": ["ANT202H5", "ANT204H5"] }, "ANT220H5"],
+      "or": []
+    }
+  },
+  {
+    "name": "ANT438H5 \u2022 Rethinking Anthropology from a Community Perspective",
+    "description": "This senior seminar course engages students in a thoughtful dialogue and critique of traditional methodologies and theories in the subfields of biological anthropology and archaeology. The goal of this course is to give students a chance to reflect on the future of this discipline through a discourse with anthropologists and community members who have been involved and affected by anthropological studies. Topics will cover Cultural Resource Management and Rematriation in Canada, Gender Diversity and Ethnic Identification in Forensic Anthropology, Ethics of Museums, and the colonial foundations of Evolutionary Anthropology, and Primatology.",
+    "prerequisites": "(ANT202H5 and ANT203H5) and 1.0 credit in a 300 level Biological Anthropology course"
+  },
+  {
+    "name": "ANT439H5 \u2022 Advanced Forensic Anthropology",
+    "description": "Forensic anthropologists are responsible for the search, recovery, and analysis of human skeletal remains in modern contexts. This course will explore the knowledge and skills used by forensic anthropologists to reconstruct the biological profile of the deceased, make an identification, contribute to the determination of manner and mode of death, understand the events that took place at the scene, and to provide an estimate of time since death.",
+    "prerequisites": { "and": ["ANT205H5", "ANT334H5"], "or": [] }
+  },
+  {
+    "name": "ANT441H5 \u2022 Advanced Bioarchaeology",
+    "description": "This course will combine theory learned inANT340H5, Osteological Theory and Methods, with bioarchaeological methods to teach students how to conduct and interpret an osteobiography of human skeletal remains. Lectures and labs will cover techniques of sex determination, age estimation, stature calculation, evaluating health and nutrition, assessing markers of occupational stress, osteometrics, biological distance studies, and paleodemography.",
+    "prerequisites": "ANT340H5"
+  },
+  {
+    "name": "ANT455H5 \u2022 Toxicity and Environmental Injustice",
+    "description": "The presence of toxic chemicals is a defining feature of contemporary life. But while toxicity is everywhere, it is not everywhere the same. Considering toxicity through medical and environmental anthropology, science and technology studies, and environmental justice, we will gain new perspectives on the politics of evidence, the nature of health, and the nature of nature. Creative, hands-on assignments will help us understand the toxic worlds around us at UTM.",
+    "prerequisites": { "and": [], "or": ["ANT204H5", "ANT207H5"] }
+  },
+  {
+    "name": "ANT460H5 \u2022 Theory in Sociocultural Anthropology",
+    "description": "Survey of major theoretical perspectives developed in social and cultural anthropology. The main ideas and underlying assumptions of each perspective will be critiqued and evaluated for their contributions to the field.",
+    "prerequisites": { "and": [], "or": ["ANT204H5", "ANT207H5"] }
+  },
+  {
+    "name": "ANT462H5 \u2022 Living and Dying: Topics in Medical Anthropology and Global Health",
+    "description": "This course is concerned with contemporary medical knowledge practices, with particular emphasis on Western medicine and Public Health. Through a set of key readings in sociocultural medical anthropology, students will explore topics such as the art and science of medicine, end of life rites and rituals, expertise, and the politics and perils of intervention. This is an advanced, writing -intensive seminar that will particularly appeal to sociocultural anthropology students, and those interested in pursuing a career in the health professions.",
+    "prerequisites": "ANT204H5"
+  },
+  {
+    "name": "ANT463H5 \u2022 Anthropologies of Water: On Meaning, Value, and Futures",
+    "description": "This class delves into the topic of water from an anthropological perspective by thinking of water not only as resource but also as meaningful substance, symbol, and mediator of human and non-human relations. Class will consist mainly of discussions of ethnographic readings but also of hands-on class exercises, field-trips, and auto-ethnographic work. In some years, students may additionally have the option of participating in an international learning experience during Reading Week that will have an additional cost and application process.",
+    "prerequisites": "ANT204H5 or ENV100Y5 or permission of department"
+  },
+  {
+    "name": "ANT465H5 \u2022 The Anthropology of Islam",
+    "description": "This course offers an upper-level overview of anthropological research on Islam and cultures of the Muslim world. In this seminar-style class, we will critically examine how anthropologists have approached the study of Islam and Muslim communities and whether there is something we can call the \u201canthropology of Islam.\u201d We will approach these questions through the critical reading of challenging theoretical texts from the mid-20th to 21st century, but also by examining various manifestations of the Islamic tradition and the diversity and complexity of Muslim cultures around the world, including in sub- Saharan Africa, the Middle East, North Africa, and Europe.",
+    "prerequisites": "1.0 credit at the 300-level sociocultural anthropology course or Permission of Instructor"
+  },
+  {
+    "name": "ANT467H5 \u2022 Are Media Turning Humans into Cyborgs?",
+    "description": "The contemporary world is profoundly shaped by mass media. We might even ask if media technologies have changed what it means to be human. Democratic politics, globalized economic flows, and new religious practices all depend on modern technologies of communication, as does the discipline of anthropology. How might we make sense of how social media, television, radio, and film have shaped our lives from an ethnographic perspective? In this course, we will pursue this question through a series of studies of media use, production, and circulation in a wide range of cultural contexts, including the exploring centrality of media to the production of anthropological knowledge. Developing some of the themes that students might have been exposed to inANT102H5(Introduction to Sociocultural and Linguistic Anthropology) andANT204H5(Sociocultural Anthropology), students will also be guided in pursuing their own research interests in this upper-level seminar.",
+    "prerequisites": "ANT204H5 or ANT207H5 or permission of the department"
+  },
+  {
+    "name": "ANT468H5 \u2022 Anthropology of Troubled Times",
+    "description": "Rising sea levels, unnatural disasters, global displacements, energy shortages, poverty, racism, mediated mass-surveillance, conspiracies, populism, pandemics \u2013 all provide unsettling markers of our times. As chroniclers and theorists of the contemporary, anthropologists have been keen to diagnose and engage the moment. Their efforts have yielded dividends: key insights into some of today\u2019s most pressing problems, as well as new analytic tools with which to capture them. This fourth-year seminar will enable students to survey a range of pressing contemporary concerns and to explore some of the ways anthropologists and cognate scholars are engaging with them. Because anthropology is part of the world it seeks to understand, the seminar will also consider anthropology\u2019s own grounds of knowledge, dwelling on some of the epistemological, ethical and political conundrums the discipline\u2019s real-world entanglements entail. This concern takes us beyond \u201ctroubled times,\u201d inviting reflection on that curious Western project we call \u201canthropology.\u201d",
+    "prerequisites": "ANT204H5 or permission of department"
+  },
+  {
+    "name": "ANT497H5 \u2022 Advanced Independent Study",
+    "description": "This independent study course is designed to offer students advanced supervised reading, research and planning for a publishable report on an anthropological topic not covered in other courses, or covered only briefly. Students who wish to pursue this option with a specific faculty member should approach the faculty member early - before the start of the academic term - to negotiate the research and study program.",
+    "prerequisites": "Permission of Instructor and Permission of Department"
+  },
+  {
+    "name": "ANT497Y5 \u2022 Advanced Independent Study",
+    "description": "This independent study course is designed to offer students advanced supervised reading, research and planning for a publishable report on an anthropological topic not covered in other courses, or covered only briefly. Students who wish to pursue this option with a specific faculty member should approach the faculty member early - before the start of the academic term - to negotiate the research and study program.",
+    "prerequisites": "Permission of Instructor and Permission of Department"
+  },
+  {
+    "name": "ANT498H5 \u2022 Advanced Independent Reading",
+    "description": "This independent reading course is designed to offer students advanced supervised reading on an anthropological topic not covered in other courses, or covered only briefly. Students who wish to pursue this option with a specific faculty member should approach the faculty member early - before the start of the academic term - to negotiate the reading program.",
+    "prerequisites": "Permission of Instructor and Permission of Department"
+  },
+  {
+    "name": "ANT498Y5 \u2022 Advanced Independent Reading",
+    "description": "This independent reading course is designed to offer students advanced supervised reading on an anthropological topic not covered in other courses, or covered only briefly. Students who wish to pursue this option with a specific faculty member should approach the faculty member early - before the start of the academic term - to negotiate the reading program.",
+    "prerequisites": "Permission of Instructor and Permission of Department"
+  },
+  {
+    "name": "ANT499H5 \u2022 Research Opportunity Program",
+    "description": "This course provides senior undergraduate students who have developed some knowledge of a discipline and its research methods an opportunity to work in the research project of a professor in return for course credit. Students enrolled have an opportunity to become involved in original research, develop their research skills and share in the excitement and discovery of acquiring new knowledge. Based on the nature of the project, projects may satisfy the Sciences or Social Sciences distribution requirement. Participating faculty members post their project descriptions for the following summer and fall/winter sessions in early March. SeeExperiential and International Opportunitiesfor more details.",
+    "prerequisites": "Permission of Instructor and Permission of Department"
+  },
+  {
+    "name": "ANT499Y5 \u2022 Research Opportunity Program",
+    "description": "This course provides senior undergraduate students who have developed some knowledge of a discipline and its research methods an opportunity to work in the research project of a professor in return for course credit. Students enrolled have an opportunity to become involved in original research, develop their research skills and share in the excitement and discovery of acquiring new knowledge. Based on the nature of the project, projects may satisfy the Sciences or Social Sciences distribution requirement. Participating faculty members post their project descriptions for the following summer and fall/winter sessions in early March. SeeExperiential and International Opportunitiesfor more details.",
+    "prerequisites": "Permission of Instructor and Permission of Department"
+  },
+  {
+    "name": "JAL351H5 \u2022 Language and Culture: Area study",
+    "description": "This course offers an in-depth study of a particular region or language from a linguistic and anthropological perspective. In some cases this will involve focusing on a particular language or speech community (e.g., Vietnamese) including its historical development and the ways in which its boundaries have been defined. In other cases, it will involve a broader, regional approach (e.g., mainland Southeast Asia). Topics vary from year to year but may include semantic and grammatical structure, language variation and use, language pragmatics, poetry and poetics, literacy and orality, political discourse, historical linguistics and comparative reconstruction, language contact and shift.",
+    "prerequisites": "ANT204H5 or ANT206H5 or JAL253H5 or LIN256H5 or permission of department"
+  },
+  {
+    "name": "JAL355H5 \u2022 Language and Gender",
+    "description": "Ways in which gender influences the use of language and behaviour in conversational interaction: ways in which language reflects cultural beliefs about gender.",
+    "prerequisites": {
+      "and": [],
+      "or": ["LIN256H5", "JAL253H5", "ANT204H5", "WGS200Y5"]
+    }
+  },
+  {
+    "name": "JAL453H5 \u2022 Language and Social Theory",
+    "description": "This seminar course considers the intersection of linguistics and anthropology, bringing ideas from contemporary and classical social theory to bear on questions central to both fields of study. Topics vary from year to year but may include any of the following: linguistic relativity; register formation; language variation; linguistic ideologies; racialization; political discourse; pragmatic and semiotic theory; language reform.",
+    "prerequisites": "ANT204H5 or ANT206H5 or JAL253H5 or LIN256H5 or permission of department"
+  }
+]
