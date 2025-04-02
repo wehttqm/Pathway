@@ -17,7 +17,6 @@ const nodeTypes = {
 };
 
 import "@xyflow/react/dist/base.css";
-import { useState } from "react";
 import { Button } from "./ui/button";
 import { useNodesContext } from "@/providers/useNodesProvider";
 import { useSideMenuContext } from "@/providers/useSideMenuProvider";
@@ -29,6 +28,7 @@ import {
   ResizablePanel,
   ResizablePanelGroup,
 } from "@/components/ui/resizable";
+import { useEffect } from "react";
 
 export const CourseView = () => {
   return (
@@ -39,49 +39,19 @@ export const CourseView = () => {
 };
 
 const Flow = () => {
+  const ReactFlowInstance = useReactFlow();
   const { open } = useSideMenuContext();
-  const { fitView } = useReactFlow();
-  const [yOffset, setYOffset] = useState(0);
+  const { nodes, onNodesChange, edges, onEdgesChange } = useNodesContext();
 
-  const addDummyNode = () => {
-    console.log(yOffset);
-    const newNode = {
-      id: yOffset.toString(),
-      type: "custom",
-      position: {
-        x: 0,
-        y: yOffset,
-      },
-      data: { code: yOffset.toString(), school: "utm" },
-      origin: [0, 0] as [number, number],
-    };
-
-    setNodes(nds => nds.concat(newNode));
-    if (yOffset > 0) {
-      setEdges(eds =>
-        eds.concat({
-          id: yOffset.toString() + "edge",
-          source: (yOffset - 100).toString(),
-          target: yOffset.toString(),
-          type: "smoothstep",
-          animated: true,
-          style: { strokeWidth: 4 },
-        }),
-      );
-    }
-
-    setYOffset(yOffset + 100);
-    fitView({ padding: 0.5 });
-  };
-
-  const { nodes, setNodes, onNodesChange, edges, setEdges, onEdgesChange } =
-    useNodesContext();
+  useEffect(() => {
+    setTimeout(() => ReactFlowInstance.fitView(), 0);
+  }, [nodes.length]);
 
   document.body.classList.add("dark");
   const params = useParams();
   if (params.schoolId && schools.includes(params.schoolId)) {
     return (
-      <div className="noise w-full h-screen flex p-4 space-x-4 overflow-hidden">
+      <div className="noise w-full h-screen flex space-x-4 overflow-hidden">
         <ResizablePanelGroup direction="horizontal" className="w-full">
           <ResizablePanel className="w-full" defaultSize={20}>
             <motion.div
@@ -103,12 +73,12 @@ const Flow = () => {
                 )}
               >
                 <div className="asdf">{params.schoolId}</div>
-                <Button onClick={() => addDummyNode()}>click me</Button>
+                <Button onClick={() => {}}>click me</Button>
               </div>
             </motion.div>
           </ResizablePanel>
           <ResizableHandle />
-          <ResizablePanel className="w-full">
+          <ResizablePanel className="w-full p-4 pl-0">
             <motion.div
               custom={1}
               variants={fadeUpVariants}

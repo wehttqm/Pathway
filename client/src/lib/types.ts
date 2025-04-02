@@ -21,12 +21,13 @@ export type EdgeBase = {
 export type CourseData = {
   name: string;
   description: string;
-  prerequisites: CourseRule;
+  prerequisites: CourseRule | string;
 };
 
 export type CourseRule = {
   and?: (string | CourseRule)[];
   or?: (string | CourseRule)[];
+  test?: boolean;
 };
 
 export type CourseCodes = {

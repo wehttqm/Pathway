@@ -27,8 +27,7 @@ async function getCourseData(areas: string[], code: string, school: string) {
 
 function CourseNode({ data }: CourseNodeProps) {
   const [courseData, setCourseData] = useState<CourseData | null>(null);
-  const { open, setOpen, setCourse } = useSideMenuContext();
-  const [highlight, setHighlight] = useState(false);
+  const { open, setOpen, course, setCourse } = useSideMenuContext();
 
   useEffect(() => {
     const fetchCourseData = async () => {
@@ -52,13 +51,16 @@ function CourseNode({ data }: CourseNodeProps) {
     <>
       <div
         onClick={() => {
-          setOpen(open ? false : true);
-          setHighlight(highlight ? false : true);
-          setCourse(courseData);
+          if (course == courseData) {
+            setOpen(open == true ? false : true);
+          } else {
+            setCourse(courseData);
+            setOpen(true);
+          }
         }}
         className={cn(
-          "px-4 py-2 shadow-md rounded-md border-2 border-primary/15 bg-primary/5 hover:cursor-pointer transition",
-          highlight && "bg-teal-50/30 scale-110",
+          "px-4 py-2 shadow-md rounded-md border-2 border-primary/15 bg-primary/5 hover:cursor-pointer transition w-[150px] h-[50px] flex justify-center items-center",
+          course == courseData && open && "bg-teal-50/30 scale-110",
         )}
       >
         <div className="text-lg font-bold">{data.code}</div>

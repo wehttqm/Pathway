@@ -85,7 +85,7 @@ def hunt_for_prereqs(input_data: list[str]):
 
 
 if __name__ == "__main__":
-    tokens_basic = ["(", "STA246H5", "or", "STA256H5", ")", "and", "CSC376H5"]
+    tokens_basic = ["CSC376H5"]
 
     prereqs = hunt_for_prereqs(tokens_basic)
 
